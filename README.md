@@ -1,3 +1,55 @@
+# Implementations
+
+- Header
+- Routing of App
+- Login Form
+- Signup Form
+- form validations
+- useRef hook
+- firebase setup
+- Deploying app to production using firebase
+- create signup user account
+- implement sign in user API
+- created redux store with user slice
+- Implemented sign out
+- update profile api integration
+- SignUp user display name and profile picture update
+- use onAuthstatechanged of firbase to navigate user to browse/login page
+- Use TMDB API get movies list for Now Playing, Top rated, Popular, Upcoming movies
+- implement custom hooks to get the above category movies list
+- create movies slice
+- update store with movies data
+- Planning for Video container/Main Container and Category Based movies list container/Secondary container
+- Fetch data to display trailer in Video Container
+- Embed the Yotube trailer Video and make it autoplay and mute
+- Use Tailwind css to replicate video container as Netflix
+- BUild secondary container to show movies list by category
+- Build Movies list
+- Build Movies card
+- Find TMDB image cdn path
+- Made Browse page beautiful
+
+# Features
+
+    - login/signup
+        - Sign In/Sign up form
+        - redirect to Browse Page
+    - Browse (After Authentication)
+        - Header
+        - Main Movie
+            - Trailer in the Background
+            - Title & Description
+            - Movie Suggestions
+                - Movie Lists
+    - Netflix GPT
+        - Search Bar
+        - Movie Suggestions
+
+npm install -g firebase-tools
+firebase login
+firebase init
+firebase deploy
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
