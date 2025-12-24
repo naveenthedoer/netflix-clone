@@ -2,9 +2,7 @@ import { useSelector } from "react-redux";
 import useTrailerVideo from "../hooks/useTrailerVideo";
 
 const VideoBackground = ({ id, title }) => {
-  const trailer = useSelector((store) => store.movies?.trailerVideo);
-
-  useTrailerVideo({ id });
+  const { trailer } = useTrailerVideo({ id });
 
   return (
     <div className="h-full overflow-x-hidden">
