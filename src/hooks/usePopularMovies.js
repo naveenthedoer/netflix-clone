@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { API_OPTIONS } from "../utils/constants";
 import { addPopularMovies } from "../utils/store/moviesSlice";
-import { TMDB_BASE_API_PATH } from "../utils/constants/tmbdConstants";
+import {
+  API_OPTIONS,
+  TMDB_BASE_API_PATH,
+} from "../utils/constants/tmbdConstants";
 
 const usePopularMovies = () => {
   const dispatch = useDispatch();

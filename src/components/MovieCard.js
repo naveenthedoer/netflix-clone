@@ -1,5 +1,5 @@
 import React from "react";
-import { IMG_CDN_BASE_PATH } from "../utils/constants";
+import { TMDB_IMG_CDN_BASE_PATH } from "../utils/constants/tmbdConstants";
 
 const MovieCard = ({ movie }) => {
   return (
@@ -7,7 +7,7 @@ const MovieCard = ({ movie }) => {
       {movie.poster_path ? (
         <img
           alt={movie.original_title}
-          src={IMG_CDN_BASE_PATH + movie.poster_path}
+          src={TMDB_IMG_CDN_BASE_PATH + movie.poster_path}
         />
       ) : (
         <div className="w-full h-[264px] flex items-center justify-center bg-gray-500">

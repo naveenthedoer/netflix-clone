@@ -3,12 +3,18 @@ export const languageConstants = {
     search: "Search",
     searchPlaceholder: "What would to like to watch today",
   },
-  hindi: {
+  hi: {
     search: "खोज",
     searchPlaceholder: "आज आप क्या देखना चाहेंगे?",
   },
-  spanish: {
+  es: {
     search: "buscar",
     searchPlaceholder: "¿Qué te gustaría ver hoy?",
   },
 };
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hi", name: "Hindi" },
+  { identifier: "es", name: "Spanish" },
+];

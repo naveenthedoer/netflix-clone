@@ -5,9 +5,10 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addUser, removeUser } from "../utils/store/userSlice";
 import { onAuthStateChanged, signOut } from "firebase/auth";
-import { LOGO, SUPPORTED_LANGUAGES } from "../utils/constants";
+import { LOGO } from "../utils/constants";
 import { toggleGptSearchView } from "../utils/store/gptSlice";
 import { changeLanguage } from "../utils/store/configSlice";
+import { SUPPORTED_LANGUAGES } from "../utils/constants/languageConstants";
 
 const Header = () => {
   const navigate = useNavigate();
