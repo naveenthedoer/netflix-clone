@@ -8,8 +8,8 @@ import {
 import { auth } from "../utils/firebase";
 import Header from "./Header";
 import { useDispatch } from "react-redux";
-import { addUser } from "../utils/userSlice";
-import { USER_AVATAR } from "../utils/constants";
+import { addUser } from "../utils/store/userSlice";
+import { BG_IMAGE_URL, USER_AVATAR } from "../utils/constants";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
@@ -95,11 +95,7 @@ const Login = () => {
   return (
     <div>
       <div>
-        <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/c81956f1-5750-454c-9b3c-7a4d990d3d06/web/IN-en-20251208-TRIFECTA-perspective_d69f5f82-9a35-45d7-a7b6-9af6e0643bf5_large.jpg"
-          className="object-cover"
-          alt=""
-        />
+        <img src={BG_IMAGE_URL} className="object-cover" alt="" />
       </div>
       <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] h-4/6 w-3/12 mx-auto bg-gradient-to-b from-black p-12">
         <form className="flex flex-col" onSubmit={(e) => e.preventDefault()}>

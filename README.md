@@ -28,6 +28,8 @@
 - Build Movies card
 - Find TMDB image cdn path
 - Made Browse page beautiful
+- GPT Search Feature
+- GPT Multi lingual feature
 
 # Features
 
@@ -45,10 +47,10 @@
         - Search Bar
         - Movie Suggestions
 
-npm install -g firebase-tools
-firebase login
-firebase init
-firebase deploy
+- npm install -g firebase-tools
+- firebase login
+- firebase init
+- firebase deploy
 
 # Getting Started with Create React App
 
