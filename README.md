@@ -30,6 +30,17 @@
 - Made Browse page beautiful
 - GPT Search Feature
 - GPT Multi lingual feature
+- Integrate OPENAI api
+- Fetch movies details based on OPENAI suggestions from TMDB
+- Created GPT slice
+- Reused Movie list componet to show movie suggestions in GPT search
+- Memoization
+- Rearranged the folder structure for constants and store
+- Mobile Responsiveness
+
+# TODO:
+
+- shimmer UI for loading
 
 # Features
 

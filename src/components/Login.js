@@ -95,9 +95,9 @@ const Login = () => {
   return (
     <div>
       <div>
-        <img src={BG_IMAGE_URL} className="object-cover" alt="" />
+        <img src={BG_IMAGE_URL} className="h-screen object-cover" alt="" />
       </div>
-      <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] h-4/6 w-3/12 mx-auto bg-gradient-to-b from-black p-12">
+      <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] h-4/6 w-9/12 md:w-5/12 lg:w-4/12 mx-auto bg-gradient-to-b from-black p-12">
         <form className="flex flex-col" onSubmit={(e) => e.preventDefault()}>
           <h1 className="text-3xl text-white font-bold mb-8">
             {isSignInForm ? "Sign In" : "Sign Up"}
