@@ -41,6 +41,10 @@
 # TODO:
 
 - shimmer UI for loading
+- Test cases
+  - unit test cases
+  - integratrion test cases
+  - E2E test cases
 
 # Features
 
